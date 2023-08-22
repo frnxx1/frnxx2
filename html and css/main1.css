@@ -20,49 +20,18 @@ html {
   background-color: var(--bg-color);
 }
 
-
-
 button:focus {
   outline-color: transparent;
   box-shadow: var(--btn-color) 2px 2px 22px;
 }
 
-button:active {
-  outline-color: transparent;
-  box-shadow: red 3px 4px 32px;
-  transition: .12s;
-}
-
-.btn2:active {
+.btn:active {
   outline-color: transparent;
   box-shadow: green 3px 4px 32px;
   transition: .12s;
 }
 
-
-.btn{
-  position:relative;
-  padding: 10px 20px;  
-  border: none;
-  background: none;
-  cursor: pointer;
-  margin-right:10px ;
-  
-  font-family: "Source Code Pro";
-  font-weight: 900;
-  text-transform: uppercase;
-  font-size: 30px;  
-  color: var(--text-color);
-  
-  background-color: var(--btn-color);
-  box-shadow: var(--shadow-color) 2px 2px 22px;
-  border-radius: 4px; 
-  z-index: 0;  
-  overflow: hidden;   
-  transition: 5s;
-}
-
-.btn2{
+.btn {
   position:relative;
   padding: 10px 20px;  
   border: none;
@@ -83,29 +52,11 @@ button:active {
   transition: 5s;
 }
 
-.btn3{
-  position:relative;
-  padding: 10px 20px;  
-  border: none;
-  background: none;
-  cursor: pointer;
-  margin-left:10px ;
-  
-  font-family: "Source Code Pro";
-  font-weight: 900;
-  text-transform: uppercase;
-  font-size: 30px;  
-  color: var(--text-color);
-  
-  background-color: var(--btn-color);
-  box-shadow: var(--shadow-color) 2px 2px 22px;
-  border-radius: 4px; 
-  z-index: 0;  
-  overflow: hidden;   
-  transition: 5s;
+.btn:not(:first-child) {
+  margin-left: 10px;
 }
 
-p{
+p {
   font-family: "Source Code Pro";
   font-weight: 900;
   text-transform: uppercase;
